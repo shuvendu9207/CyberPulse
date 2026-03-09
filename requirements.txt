@@ -1,0 +1,12 @@
+streamlit
+scapy
+pandas
+pyarrow
+torch
+torchvision
+torchaudio
+requests
+pydeck
+matplotlib
+seaborn
+plotly
