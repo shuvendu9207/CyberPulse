@@ -122,6 +122,10 @@ st.markdown(f"""
         color: {text_color} !important;
         border-radius: 8px;
         transition: all 0.3s ease;
+        height: 38px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
     }}
     .stButton > button:hover {{
         background: {"rgba(255, 255, 255, 0.6)" if st.session_state.theme == "Light" else accent_color + "44"};
@@ -372,7 +376,7 @@ h1, h2, h3, h4, b, span, p, td, th {{ color: {text_color} !important; }}
 /* Native Streamlit buttons — fixed to top right, always on screen */
 div[data-testid="stColumn"]:has(#hdr-rescan) {{
     position: fixed !important;
-    top: 6px !important;
+    top: 4px !important;
     right: 120px !important;
     z-index: 10000001 !important;
     width: auto !important;
@@ -380,7 +384,7 @@ div[data-testid="stColumn"]:has(#hdr-rescan) {{
 }}
 div[data-testid="stColumn"]:has(#hdr-theme) {{
     position: fixed !important;
-    top: 6px !important;
+    top: 4px !important;
     right: 40px !important;
     z-index: 10000001 !important;
     width: auto !important;
