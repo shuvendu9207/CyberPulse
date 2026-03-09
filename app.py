@@ -64,7 +64,7 @@ st.markdown(f"""
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 0px;
+        gap: 3px;
         color: {text_color};
         font-size: 0.9rem;
     }}
