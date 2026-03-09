@@ -1,62 +1,106 @@
-# 🛡️ CyberPulse — AI-Powered IDS Dashboard
+<div align="center">
 
-**CyberPulse** is a professional, real-time Intrusion Detection System (IDS) dashboard. It integrates live network packet sniffing, AI-driven threat classification using PyTorch, and a dynamic 3D globe visualization of global attack patterns using live internet threat intelligence.
+# 🛡️ CyberPulse
+### *AI-Powered IDS — Real-time Threat Classification & Visualization.*
+
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-red?style=flat-square&logo=streamlit)](https://streamlit.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+
+🌐 **Live Application:** https://cyberpulse-shuvendu.streamlit.app/  
+
+A self-hosted intrusion detection platform — raw packets to AI-classified threats in real-time.
+
+</div>
 
 ---
 
-## 🚀 Quick Start
-To get the dashboard running immediately:
+## ⚡ Quick Start
+
 ```bash
-# Clone
+# Clone the repository
 git clone https://github.com/shuvendu9207/cyberpulse.git && cd cyberpulse
 
-# Setup & Install
+# Setup environment & install dependencies
 python -m venv venv
 venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 
-# Run
+# Run the application
 py -m streamlit run app.py
 ```
-> **Prerequisite:** [Npcap](https://npcap.com/#download) must be installed on Windows for packet sniffing functionality.
+
+> 🌐 Live App → `https://cyberpulse-shuvendu.streamlit.app/` &nbsp;|&nbsp; 📡 Sniffer → `Scapy/Npcap`
+> 💡 Windows issues? Ensure [Npcap](https://npcap.com/#download) is installed for packet sniffing.
 
 ---
 
-## ✨ Key Features
-- 🌍 **Live 3D Attack Globe**: Sychronized with [URLhaus](https://urlhaus.abuse.ch) data, visualizing live malware hosts attacking globally.
-- 🧠 **ML-Driven Detection**: Deep Learning model (PyTorch DNN) classifies every captured packet as `NORMAL` or `THREAT` based on traffic patterns.
-- 📡 **Real-time Sniffing**: Uses Scapy to capture and analyze live network traffic with sub-second latency.
-- 🌓 **Premium UI**: Glassmorphic dashboard with Dark/Light mode support and auto-rotating live threat feed.
-- 📱 **Mobile Optimized**: Responsive layout with compact analytics for security monitoring on the go.
+## 🔁 Pipeline
+
+Every packet capture fires 5 stages automatically:
+
+```
+Sniffing → Processing → Feature Extraction → Prediction → Tracking → exp_<id>.pt
+```
+
+**Supported traffic:** `TCP` · `UDP` · `ICMP` · `HTTP` · `TLS`
 
 ---
 
-## 🗂️ Technical Architecture & Structure
-The project is built with a modular architecture:
-- `app.py`: The dashboard engine (Streamlit) and real-time UI logic.
-- `ml/`: Contains the PyTorch `model.py`, `train.py` for retraining, and the high-level `predictor.py`.
-- `processing/`: Intelligent `feature_extractor.py` converts raw hex/binary packets into numerical ML input.
-- `sensors/`: Backend packet sniffers that feed the real-time logs.
-- `models/`: Persistent storage for optimized PyTorch weight files (`.pt`).
-- `data_lake/`: Aggregated datasets of captured traffic for future model improvements.
+## ✨ Features
+
+| | |
+|---|---|
+| 🌍 **Live 3D Attack Globe** | Visualizes live malware hosts using URLhaus threat intelligence. |
+| 🧠 **ML-Driven Detection** | PyTorch DNN classifies packets as `NORMAL` or `THREAT` in real-time. |
+| 📡 **Real-time Sniffing** | High-performance capture and analysis with sub-second latency. |
+| 🌓 **Premium UI** | Glassmorphic interface with Dark/Light mode and interactive charts. |
+| 📱 **Mobile Optimized** | Fully responsive layout for security monitoring on any device. |
 
 ---
 
-## 🛠️ Technical Specifications
-- **Model**: Fully-connected Deep Neural Network (DNN) with ReLU activations and Dropout layers.
-- **Data Source**: URLhaus (abuse.ch) live feed, cached every 30s to provide up-to-the-minute global threat intel.
-- **Frontend**: Streamlit with custom CSS/JS for glassmorphism and 3D globe rendering.
-- **Networking**: Scapy for raw packet manipulation and protocol analysis.
+## 📁 Project Structure
+
+```
+cyberpulse/
+├── app.py                 ← Application Entry Point (Streamlit)
+├── ml/                    # AI Engine
+│   ├── model.py           # PyTorch DNN Architecture
+│   ├── predictor.py       # Classification Interface
+│   └── train.py           # Model Training Logic
+├── processing/            # Data Pipeline
+│   ├── dataset_builder.py # Binary/Hex to CSV
+│   └── feature_extractor.py # Numeric Feature Vectorization
+├── sensors/               # Network Backend
+│   ├── packet_sniffer.py  # Scapy-based Capture
+│   └── threat_intel.py    # URLhaus API Integration
+├── models/                # Trained .pt Artifacts
+├── data_lake/             # Captured Traffic History
+└── requirements.txt       # Dependencies
+```
 
 ---
 
-## 👤 Author
-**Shuvendu Kumar Mohapatra**
-- 📧 [shuvendukumarmohapatra92@gmail.com](mailto:shuvendukumarmohapatra92@gmail.com)
-- 🐙 [GitHub: shuvendu9207](https://github.com/shuvendu9207)
-- 🔗 [LinkedIn: shuvendu-kumar-mohapatra](https://linkedin.com/in/shuvendu-kumar-mohapatra)
+## ⚙️ Technical Specifications
+
+```yaml
+# Performance & Architecture
+model:
+  type: Fully-connected DNN
+  activations: ReLU + Dropout
+  framework: PyTorch
+data:
+  source: URLhaus (abuse.ch) live feed
+  cache_interval: 30s
+ui:
+  theme: Glassmorphism / Dark Mode
+  viz: 3D Globe (WebGL)
+```
 
 ---
-<p align="center">
-  <b>CyberPulse v1.5.0</b> — Advanced AI-Powered Network Security Dashboard
-</p>
+
+<div align="center">
+Built with 🛡️ by <b>Shuvendu Kumar Mohapatra</b> · <a href="mailto:shuvendukumarmohapatra92@gmail.com">Contact</a> · <a href="https://linkedin.com/in/shuvendu-kumar-mohapatra">LinkedIn</a>
+
+</div>
+
