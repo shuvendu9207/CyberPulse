@@ -384,7 +384,7 @@ div[data-testid="stColumn"]:has(#hdr-rescan) {{
 }}
 div[data-testid="stColumn"]:has(#hdr-theme) {{
     position: fixed !important;
-    top: -5px !important;
+    top: -6px !important;
     right: 40px !important;
     z-index: 10000001 !important;
     width: auto !important;
