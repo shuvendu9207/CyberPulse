@@ -372,21 +372,19 @@ h1, h2, h3, h4, b, span, p, td, th {{ color: {text_color} !important; }}
 /* Native Streamlit buttons — fixed to top right, always on screen */
 div[data-testid="stColumn"]:has(#hdr-rescan) {{
     position: fixed !important;
-    top: 12px !important;
-    right: 130px !important;
+    top: 10px !important;
+    right: 120px !important;
     z-index: 10000001 !important;
     width: auto !important;
     min-width: 0 !important;
-    overflow: visible !important;
 }}
 div[data-testid="stColumn"]:has(#hdr-theme) {{
     position: fixed !important;
-    top: 12px !important;
-    right: 60px !important;
+    top: 10px !important;
+    right: 40px !important;
     z-index: 10000001 !important;
     width: auto !important;
     min-width: 0 !important;
-    overflow: visible !important;
 }}
 </style>
 
@@ -864,4 +862,3 @@ st.rerun()
 st.sidebar.markdown(f"**CyberPulse** v1.5.0")
 st.sidebar.markdown("---")
 st.sidebar.markdown("Advanced AI-Powered IDS")
-
