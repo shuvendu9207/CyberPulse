@@ -376,7 +376,7 @@ h1, h2, h3, h4, b, span, p, td, th {{ color: {text_color} !important; }}
 /* Native Streamlit buttons — fixed to top right, always on screen */
 div[data-testid="stColumn"]:has(#hdr-rescan) {{
     position: fixed !important;
-    top: 3px !important;
+    top: 2px !important;
     right: 120px !important;
     z-index: 10000001 !important;
     width: auto !important;
