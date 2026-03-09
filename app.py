@@ -64,7 +64,7 @@ st.markdown(f"""
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 3px;
+        gap: 80px;
         color: {text_color};
         font-size: 0.9rem;
     }}
@@ -312,6 +312,18 @@ h1, h2, h3, h4, b, span, p, td, th {{ color: {text_color} !important; }}
         overflow: hidden !important;
         margin: 0 !important;
         padding: 0 !important;
+    }}
+    /* Mobile Footer: icons only, tighter gap */
+    .custom-footer {{
+        gap: 40px !important;
+    }}
+    .footer-link {{
+        font-size: 0 !important;
+        gap: 0 !important;
+    }}
+    .footer-icon {{
+        width: 22px !important;
+        height: 22px !important;
     }}
 }}
 
@@ -852,3 +864,4 @@ st.rerun()
 st.sidebar.markdown(f"**CyberPulse** v1.5.0")
 st.sidebar.markdown("---")
 st.sidebar.markdown("Advanced AI-Powered IDS")
+
