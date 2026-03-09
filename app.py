@@ -372,7 +372,7 @@ h1, h2, h3, h4, b, span, p, td, th {{ color: {text_color} !important; }}
 /* Native Streamlit buttons — fixed to top right, always on screen */
 div[data-testid="stColumn"]:has(#hdr-rescan) {{
     position: fixed !important;
-    top: 10px !important;
+    top: 6px !important;
     right: 120px !important;
     z-index: 10000001 !important;
     width: auto !important;
@@ -380,7 +380,7 @@ div[data-testid="stColumn"]:has(#hdr-rescan) {{
 }}
 div[data-testid="stColumn"]:has(#hdr-theme) {{
     position: fixed !important;
-    top: 10px !important;
+    top: 6px !important;
     right: 40px !important;
     z-index: 10000001 !important;
     width: auto !important;
