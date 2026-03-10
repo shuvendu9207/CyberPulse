@@ -31,9 +31,9 @@ A self-hosted intrusion detection platform — raw packets to AI-classified thre
 ## 📸 App Gallery
 
 <div align="center">
-  <a href="https://ibb.co/VYWczRVQ"><img src="https://i.ibb.co/VYWczRVQ/Screenshot-2026-03-10-120243.png" alt="Screenshot-2026-03-10-120243" border="10" height="210" width="280"></a>
-  <a href="https://ibb.co/HfYBcTHh"><img src="https://i.ibb.co/HfYBcTHh/Screenshot-2026-03-10-120258.png" alt="Screenshot-2026-03-10-120258" border="10" height="210" width="280"></a>
-  <a href="https://ibb.co/kFHfdXy"><img src="https://i.ibb.co/kFHfdXy/Screenshot-2026-03-10-120336.png" alt="Screenshot-2026-03-10-120336" border="10" height="210" width="280"></a>
+  <a href="https://ibb.co/VYWczRVQ"><img src="https://i.ibb.co/VYWczRVQ/Screenshot-2026-03-10-120243.png" alt="Screenshot-2026-03-10-120243" border="10" height="210"></a>
+  <a href="https://ibb.co/HfYBcTHh"><img src="https://i.ibb.co/HfYBcTHh/Screenshot-2026-03-10-120258.png" alt="Screenshot-2026-03-10-120258" border="10" height="210"></a>
+  <a href="https://ibb.co/kFHfdXy"><img src="https://i.ibb.co/kFHfdXy/Screenshot-2026-03-10-120336.png" alt="Screenshot-2026-03-10-120336" border="10" height="210"></a>
 </div>
 
 ---
