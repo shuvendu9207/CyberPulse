@@ -23,7 +23,7 @@ A self-hosted intrusion detection platform — raw packets to AI-classified thre
 | F1 Score (Threat Class) | 0.91 |
 | Precision | 0.89 |
 | Recall | 0.94 |
-| Avg Detection Latency | 17ms |
+| Avg Detection Latency | 12ms |
 | Packets Tested | 25,600+ |
 
 ---
