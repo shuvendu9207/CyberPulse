@@ -39,9 +39,11 @@ py -m streamlit run app.py
 
 Every packet capture fires 5 stages automatically:
 
-```
-Sniffing → Processing → Feature Extraction → Prediction → Tracking → exp_<id>.pt
-```
+1. **Sniffing**: Raw packet capture using Scapy/Npcap.
+2. **Processing**: Binary/Hex data conversion to structured format.
+3. **Feature Extraction**: Numeric feature vectorization for ML.
+4. **Prediction**: Classification using PyTorch DNN.
+5. **Tracking**: Historical logging to `data_lake/`.
 
 **Supported traffic:** `TCP` · `UDP` · `ICMP` · `HTTP` · `TLS`
 
@@ -49,13 +51,13 @@ Sniffing → Processing → Feature Extraction → Prediction → Tracking → e
 
 ## ✨ Features
 
-| | |
-|---|---|
-| 🌍 **Live 3D Attack Globe** | Visualizes live malware hosts using URLhaus threat intelligence. |
-| 🧠 **ML-Driven Detection** | PyTorch DNN classifies packets as `NORMAL` or `THREAT` in real-time. |
-| 📡 **Real-time Sniffing** | High-performance capture and analysis with sub-second latency. |
-| 🌓 **Premium UI** | Glassmorphic interface with Dark/Light mode and interactive charts. |
-| 📱 **Mobile Optimized** | Fully responsive layout for security monitoring on any device. |
+| # | Feature | Description |
+|---|---|---|
+| 1 | 🌍 **Live 3D Attack Globe** | Visualizes live malware hosts using URLhaus threat intelligence. |
+| 2 | 🧠 **ML-Driven Detection** | PyTorch DNN classifies packets as `NORMAL` or `THREAT` in real-time. |
+| 3 | 📡 **Real-time Sniffing** | High-performance capture and analysis with sub-second latency. |
+| 4 | 🌓 **Premium UI** | Glassmorphic interface with Dark/Light mode and interactive charts. |
+| 5 | 📱 **Mobile Optimized** | Fully responsive layout for security monitoring on any device. |
 
 ---
 
