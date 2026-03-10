@@ -31,9 +31,9 @@ A self-hosted intrusion detection platform — raw packets to AI-classified thre
 ## 📸 App Gallery
 
 <div align="center">
-  <a href='https://postimg.cc/1873hQRw' target='_blank'><img src='https://i.postimg.cc/1873hQRw/Screenshot-2026-03-10-120243.png' border='0' alt='Screenshot-2026-03-10-120243'></a>
-  <a href='https://postimg.cc/TpCRg6DF' target='_blank'><img src='https://i.postimg.cc/TpCRg6DF/Screenshot-2026-03-10-120258.png' border='0' alt='Screenshot-2026-03-10-120258'></a>
-  <a href='https://postimg.cc/Y4mk5LsK' target='_blank'><img src='https://i.postimg.cc/Y4mk5LsK/Screenshot-2026-03-10-120336.png' border='0' alt='Screenshot-2026-03-10-120336'></a>
+  <a href='https://postimg.cc/1873hQRw' target='_blank'><img src='https://i.postimg.cc/1873hQRw/Screenshot-2026-03-10-120243.png' width="400" alt='Screenshot-2026-03-10-120243'></a>
+  <a href='https://postimg.cc/TpCRg6DF' target='_blank'><img src='https://i.postimg.cc/TpCRg6DF/Screenshot-2026-03-10-120258.png' width="400" alt='Screenshot-2026-03-10-120258'></a>
+  <a href='https://postimg.cc/Y4mk5LsK' target='_blank'><img src='https://i.postimg.cc/Y4mk5LsK/Screenshot-2026-03-10-120336.png' width="400" alt='Screenshot-2026-03-10-120336'></a>
 </div>
 
 ---
