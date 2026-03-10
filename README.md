@@ -31,9 +31,9 @@ A self-hosted intrusion detection platform — raw packets to AI-classified thre
 ## 📸 App Gallery
 
 <div align="center">
-  <a href='https://postimg.cc/1873hQRw' target='_blank'><img src='https://i.postimg.cc/1873hQRw/Screenshot-2026-03-10-120243.png' width="250" alt='Screenshot-2026-03-10-120243'></a>
-  <a href='https://postimg.cc/TpCRg6DF' target='_blank'><img src='https://i.postimg.cc/TpCRg6DF/Screenshot-2026-03-10-120258.png' width="250" alt='Screenshot-2026-03-10-120258'></a>
-  <a href='https://postimg.cc/Y4mk5LsK' target='_blank'><img src='https://i.postimg.cc/Y4mk5LsK/Screenshot-2026-03-10-120336.png' width="250" alt='Screenshot-2026-03-10-120336'></a>
+  <img src="https://image2url.com/r2/default/images/1773124800500-1e326b24-b472-4251-8dba-82bde142870b.png" alt="image" />
+  <img src="https://image2url.com/r2/default/images/1773124839042-b969eb8d-f6c5-4d81-adbc-7a91a7701ae3.png" alt="image" />
+  <img src="https://image2url.com/r2/default/images/1773124874144-5d213989-18fd-423e-a771-0c77aa34d1ae.png" alt="image" />
 </div>
 
 ---
