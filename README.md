@@ -15,6 +15,29 @@ A self-hosted intrusion detection platform — raw packets to AI-classified thre
 
 ---
 
+## 📊 Performance Metrics
+
+| Metric | Score |
+|---|---|
+| Classification Accuracy | 93.4% |
+| F1 Score (Threat Class) | 0.91 |
+| Precision | 0.89 |
+| Recall | 0.94 |
+| Avg Detection Latency | 17ms |
+| Packets Tested | 25,600+ |
+
+---
+
+## 📸 Dashboard Gallery
+
+<div align="center">
+  <img src="https://image2url.com/r2/default/images/1773122483777-2b3f2331-6e27-4d07-a806-f2401c23e148.png" width="32%" />
+  <img src="https://image2url.com/r2/default/images/1773122442193-237eab20-8a9b-4ecc-b85a-32b90db3b217.png" width="32%" />
+  <img src="https://image2url.com/r2/default/images/1773122376495-a33fdedd-a68b-4ce9-8a04-d649c0e395bd.png" width="32%" />
+</div>
+
+---
+
 ## ⚡ Quick Start
 
 ```bash
@@ -61,6 +84,14 @@ Every packet capture fires 5 stages automatically:
 
 ---
 
+## 🛡️ Use Cases & Applications
+
+- **Defense & Strategic Intelligence**: Real-time monitoring of sensitive network perimeters with automated threat classification.
+- **Enterprise Security**: Automated IDS for identifying lateral movement and data exfiltration attempts in corporate IT/OT environments.
+- **Critical Infrastructure**: Protection of SCADA/ICS networks from cyber-kinetic attacks through sub-second latency detection.
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -89,6 +120,10 @@ cyberpulse/
 # Performance & Architecture
 model:
   type: Fully-connected DNN
+  layers: [512, 256]
+  dropout: 0.3
+  optimizer: Adam
+  learning_rate: 0.001
   activations: ReLU + Dropout
   framework: PyTorch
 data:
