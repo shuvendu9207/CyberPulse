@@ -15,7 +15,7 @@ A self-hosted intrusion detection platform — raw packets to AI-classified thre
 
 ---
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 | Metric | Score |
 |---|---|
@@ -28,7 +28,7 @@ A self-hosted intrusion detection platform — raw packets to AI-classified thre
 
 ---
 
-## 📸 App Gallery
+## App Gallery
 
 <div align="center">
   <a href="https://ibb.co/VYWczRVQ"><img src="https://i.ibb.co/VYWczRVQ/Screenshot-2026-03-10-120243.png" alt="Screenshot-2026-03-10-120243" border="10" height="210"></a>
@@ -38,7 +38,7 @@ A self-hosted intrusion detection platform — raw packets to AI-classified thre
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ```bash
 # Clone the repository
@@ -58,7 +58,7 @@ py -m streamlit run app.py
 
 ---
 
-## 🔁 Pipeline
+## Pipeline
 
 Every packet capture fires 5 stages automatically:
 
@@ -72,19 +72,19 @@ Every packet capture fires 5 stages automatically:
 
 ---
 
-## ✨ Features
+## Features
 
 | # | Feature | Description |
 |---|---|---|
-| 1 | 🌍 **Live 3D Attack Globe** | Visualizes live malware hosts using URLhaus threat intelligence. |
-| 2 | 🧠 **ML-Driven Detection** | PyTorch DNN classifies packets as `NORMAL` or `THREAT` in real-time. |
-| 3 | 📡 **Real-time Sniffing** | High-performance capture and analysis with sub-second latency. |
-| 4 | 🌓 **Premium UI** | Glassmorphic interface with Dark/Light mode and interactive charts. |
-| 5 | 📱 **Mobile Optimized** | Fully responsive layout for security monitoring on any device. |
+| 1 | **Live 3D Attack Globe** | Visualizes live malware hosts using URLhaus threat intelligence. |
+| 2 | **ML-Driven Detection** | PyTorch DNN classifies packets as `NORMAL` or `THREAT` in real-time. |
+| 3 | **Real-time Sniffing** | High-performance capture and analysis with sub-second latency. |
+| 4 | **Premium UI** | Glassmorphic interface with Dark/Light mode and interactive charts. |
+| 5 | **Mobile Optimized** | Fully responsive layout for security monitoring on any device. |
 
 ---
 
-## 🛡️ Use Cases & Applications
+## Use Cases & Applications
 
 - **Defense & Strategic Intelligence**: Real-time monitoring of sensitive network perimeters with automated threat classification.
 - **Enterprise Security**: Automated IDS for identifying lateral movement and data exfiltration attempts in corporate IT/OT environments.
@@ -92,7 +92,7 @@ Every packet capture fires 5 stages automatically:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 cyberpulse/
