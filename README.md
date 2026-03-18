@@ -136,7 +136,7 @@ ui:
 ---
 
 <div align="center">
-Built with 🛡️ by <b>Shuvendu Kumar Mohapatra</b> · <a href="mailto:shuvendukumarmohapatra92@gmail.com">Contact</a> · <a href="https://linkedin.com/in/shuvendu-kumar-mohapatra">LinkedIn</a>
+Built by <b>Shuvendu Kumar Mohapatra</b> · <a href="mailto:shuvendukumarmohapatra92@gmail.com">Contact</a> · <a href="https://linkedin.com/in/shuvendu-kumar-mohapatra">LinkedIn</a>
 
 </div>
 
