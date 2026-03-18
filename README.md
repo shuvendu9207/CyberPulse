@@ -113,7 +113,7 @@ cyberpulse/
 
 ---
 
-## ⚙️ Technical Specifications
+## Technical Specifications
 
 ```yaml
 # Performance & Architecture
